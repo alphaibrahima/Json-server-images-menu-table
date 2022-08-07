@@ -1,0 +1,228 @@
+{
+
+    "user-product":[
+      {
+        "id": 1,
+        "sub_name": "Poulets de Gass",
+        "price": 5000,
+        "quantity": 214,
+        "description": "string",
+        "weight": 3,
+        "created_at": "2022-08-02T16:50:02.571Z",
+        "updated_at": "2022-08-02T16:50:02.571Z",
+        "category": {
+          "id": 1,
+          "name": "Poulet de chaire",
+          "picture": "/assets/images/poulet-chaire.jpg",
+          "created_at": "2022-08-02T16:43:45.002Z",
+          "updated_at": "2022-08-02T16:43:45.002Z",
+          "product": {
+            "id": 1,
+            "name": "Poule",
+            "product_description": "Des Poules...",
+            "created_at": "2022-08-02T16:42:22.644Z",
+            "updated_at": "2022-08-02T16:42:22.644Z"
+          }
+        },
+        "seller": {
+          "id": 1,
+          "firstname": "Yadaly",
+          "lastname": "Gassama",
+          "tel": "772477730",
+          "adress": "Rue Fixe",
+          "picture_url": "null",
+          "created_at": "2022-08-02T16:40:50.926Z",
+          "updated_at": "2022-08-02T16:40:50.926Z"
+        }
+      },
+      {
+        "id": 2,
+        "sub_name": "Nexx Poulet",
+        "price": 4500,
+        "quantity": 25,
+        "description": "null",
+        "weight": 3,
+        "created_at": "2022-08-02T16:51:05.344Z",
+        "updated_at": "2022-08-02T16:51:05.344Z",
+        "category": {
+          "id": 2,
+          "name": "Poulet de Pays",
+          "picture": "/assets/images/poulet-pays.jpg",
+          "created_at": "2022-08-02T16:43:54.679Z",
+          "updated_at": "2022-08-02T16:43:54.679Z",
+          "product": {
+            "id": 1,
+            "name": "Poule",
+            "product_description": "Des Poules...",
+            "created_at": "2022-08-02T16:42:22.644Z",
+            "updated_at": "2022-08-02T16:42:22.644Z"
+          }
+        },
+        "seller": {
+          "id": 2,
+          "firstname": "Ablaye",
+          "lastname": "Gaye",
+          "tel": "78455530",
+          "adress": "Mbour",
+          "picture_url": "null",
+          "created_at": "2022-08-02T16:41:30.403Z",
+          "updated_at": "2022-08-02T16:41:30.403Z"
+        }
+      },
+      {
+        "id": 3,
+        "sub_name": "Oeufs Entretenus",
+        "price": 150,
+        "quantity": 15000,
+        "description": "null",
+        "weight": 1,
+        "created_at": "2022-08-02T16:52:42.691Z",
+        "updated_at": "2022-08-02T16:52:42.691Z",
+        "category": {
+          "id": 4,
+          "name": "Oeuf pondeuses",
+          "picture": "/assets/images/oeuf.jpg",
+          "created_at": "2022-08-02T16:44:18.935Z",
+          "updated_at": "2022-08-02T16:44:18.935Z",
+          "product": {
+            "id": 2,
+            "name": "Oeufs",
+            "product_description": "Des Oeuf...",
+            "created_at": "2022-08-02T16:42:35.271Z",
+            "updated_at": "2022-08-02T16:42:35.271Z"
+          }
+        },
+        "seller": {
+          "id": 1,
+          "firstname": "Yadaly",
+          "lastname": "Gassama",
+          "tel": "772477730",
+          "adress": "Rue Fixe",
+          "picture_url": "null",
+          "created_at": "2022-08-02T16:40:50.926Z",
+          "updated_at": "2022-08-02T16:40:50.926Z"
+        }
+      }
+    ],
+    "seller":[
+      {
+        "id": 1,
+        "firstname": "Yadaly",
+        "lastname": "Gassama",
+        "tel": "772477730",
+        "adress": "Rue Fixe",
+        "picture_url": "null",
+        "created_at": "2022-08-02T16:40:50.926Z",
+        "updated_at": "2022-08-02T16:40:50.926Z"
+      },
+      {
+        "id": 2,
+        "firstname": "Ablaye",
+        "lastname": "Gaye",
+        "tel": "78455530",
+        "adress": "Mbour",
+        "picture_url": "null",
+        "created_at": "2022-08-02T16:41:30.403Z",
+        "updated_at": "2022-08-02T16:41:30.403Z"
+      },
+      {
+        "id": 3,
+        "firstname": "Sidy",
+        "lastname": "Fall",
+        "tel": "765155444",
+        "adress": "Mbour",
+        "picture_url": "null",
+        "created_at": "2022-08-02T16:41:52.893Z",
+        "updated_at": "2022-08-02T16:41:52.893Z"
+      }
+    ],
+
+    "category":[
+      {
+        "id": 1,
+        "name": "Poulet de chaire",
+        "picture": "/assets/images/poulet-chaire.jpg",
+        "created_at": "2022-08-02T16:43:45.002Z",
+        "updated_at": "2022-08-02T16:43:45.002Z",
+        "product": {
+          "id": 1,
+          "name": "Poule",
+          "product_description": "Des Poules...",
+          "created_at": "2022-08-02T16:42:22.644Z",
+          "updated_at": "2022-08-02T16:42:22.644Z"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Poulet de Pays",
+        "picture": "/assets/images/poulet-pays.jpg",
+        "created_at": "2022-08-02T16:43:54.679Z",
+        "updated_at": "2022-08-02T16:43:54.679Z",
+        "product": {
+          "id": 1,
+          "name": "Poule",
+          "product_description": "Des Poules...",
+          "created_at": "2022-08-02T16:42:22.644Z",
+          "updated_at": "2022-08-02T16:42:22.644Z"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Poulet pondeuses",
+        "picture": "/assets/images/poulet-chaire.jpg",
+        "created_at": "2022-08-02T16:44:09.123Z",
+        "updated_at": "2022-08-02T16:44:09.123Z",
+        "product": {
+          "id": 1,
+          "name": "Poule",
+          "product_description": "Des Poules...",
+          "created_at": "2022-08-02T16:42:22.644Z",
+          "updated_at": "2022-08-02T16:42:22.644Z"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Oeuf pondeuses",
+        "picture": "/assets/images/oeuf.jpg",
+        "created_at": "2022-08-02T16:44:18.935Z",
+        "updated_at": "2022-08-02T16:44:18.935Z",
+        "product": {
+          "id": 2,
+          "name": "Oeufs",
+          "product_description": "Des Oeuf...",
+          "created_at": "2022-08-02T16:42:35.271Z",
+          "updated_at": "2022-08-02T16:42:35.271Z"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Oeuf Poulet Chaire",
+        "picture": "/assets/images/oeuf.jpg",
+        "created_at": "2022-08-02T16:44:43.095Z",
+        "updated_at": "2022-08-02T16:44:43.095Z",
+        "product": {
+          "id": 2,
+          "name": "Oeufs",
+          "product_description": "Des Oeuf...",
+          "created_at": "2022-08-02T16:42:35.271Z",
+          "updated_at": "2022-08-02T16:42:35.271Z"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Oeuf Normal",
+        "picture": "/assets/images/oeuf.jpg",
+        "created_at": "2022-08-02T16:45:03.818Z",
+        "updated_at": "2022-08-02T16:45:03.818Z",
+        "product": {
+          "id": 2,
+          "name": "Oeufs",
+          "product_description": "Des Oeuf...",
+          "created_at": "2022-08-02T16:42:35.271Z",
+          "updated_at": "2022-08-02T16:42:35.271Z"
+        }
+      }
+    ]
+    
+
+}
